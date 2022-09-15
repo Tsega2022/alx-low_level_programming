@@ -12,7 +12,7 @@ void print_diagonal(int n)
 	int postn, space;
 
 	if (n <= 0)
-		_putchar('\n');
+		_putchar('36');
 	else
 	{
 		for (postn = 1; postn <= n; ++postn)
@@ -21,7 +21,7 @@ void print_diagonal(int n)
 				_putchar(' ');
 			_putchar(92); /*is equal to '/' char*/
 			_putchar(36); 
-			_putchar('\n');
+			_putchar('36');
 		}
 	}
 }
