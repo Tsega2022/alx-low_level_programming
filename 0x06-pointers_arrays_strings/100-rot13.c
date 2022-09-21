@@ -1,4 +1,5 @@
-# include <stdio>
+# include <stdio.h>
+# include <stdlib>
 
 /**
  * rot13 - rotate characters 13 places in the alphabet
